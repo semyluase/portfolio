@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+
+/* custom */
+
+.btn-custom {
+    background-color: #f63855;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 0;
+}
+
+section {
+    padding-top: 6em;
+    padding-bottom: 3em;
+}
+
+h1,
+h2 {
+    color: #f63855;
+}
+
+.section-title {
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #f63855;
+}
+
+.card {
+    border-radius: 30px;
+}
+
+.card img {
+    border-radius: 20px;
+}
+
+form input,
+form textarea {
+    border-radius: 10px !important;
+}
+
+
+/* navbar */
+
+nav {
+    background-color: #f63855 !important;
+}
+
+.navbar .navbar-brand {
+    color: #eeeeee;
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand:hover {
+    text-decoration: underline;
+    color: #eeeeee;
+}
+
+.navbar .navbar-nav {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #eeeeee !important;
+    padding-right: 15px !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+
+/* hero */
+
+.hero .hero-text {
+    text-align: justify;
+}
+
+
+/* about */
+
+.about {
+    background-color: rgba(238, 238, 238, 0.3);
+}
+
+.about p {
+    color: #f63855;
+}
+
+
+/* gallery */
+
+.gallery {
+    background-color: rgba(238, 238, 238, 0.3);
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgba(238, 238, 238, 0.7);
+    padding: 2em 0;
+    text-align: center;
+}
+
+footer .copy {
+    font-size: 1.3em;
+}
+
+footer .copy span {
+    font-weight: 900;
+}
